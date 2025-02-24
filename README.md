@@ -6,12 +6,12 @@ After generating the configuration files, they should be uploaded into the VCell
 
 1. Download the VCell client through 'https://vcell.org/run-vcell-software', create a free account and log in.
 2. Select the 'BioModel' tab, in the 'Search' box, locate and load the models 'Rule-based_egfr_tutorial' or 'rule-based_Ran_transport' under the 'Tutorials' directory for the EGFR model or Ran model, respectively.
-<img src="https://github.com/b224618/MS-GODE/blob/master/vcell_models.png"/> 
+<img src="https://github.com/QueuQ/MS-GODE/blob/master/vcell_models.png"/> 
 
 3. In the upper left part of the window, click the 'Applications', then click the 'Simulations' under the 'network_determ' tab.
-<img src="https://github.com/b224618/MS-GODE/blob/master/vcell_simulations.png"/>
+<img src="https://github.com/QueuQ/MS-GODE/blob/master/vcell_simulations.png"/>
 4. In the main window on the upper right, select the 'Simulations' tab and click the first icon under  the 'Simulations' tab to create a new simulation.
-<img src="https://github.com/b224618/MS-GODE/blob/master/vcell_batch_simulations.png"/>
+<img src="https://github.com/QueuQ/MS-GODE/blob/master/vcell_batch_simulations.png"/>
 5. Click to select the created simulation, then click the icon with a blue arrow and a gear to load the previously generated simulations.
 6. After the simulations are done, select all the simulations and click the icon with a green arrow and a gear to export all the simulation results into a specified folder.
 7. Specify the ```data_store_path``` and run ```generate_dataset.py``` to obtain the data files that can be loaded and used by the MS-GODE model.
